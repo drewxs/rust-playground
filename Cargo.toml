@@ -1,0 +1,2 @@
+[workspace]
+members = ["concurrency", "gui", "tree"]
