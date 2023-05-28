@@ -1,2 +1,2 @@
 [workspace]
-members = ["concurrency", "gui", "tree"]
+members = ["blog", "blog-oop", "concurrency", "gui", "tree"]
