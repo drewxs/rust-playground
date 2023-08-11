@@ -14,6 +14,18 @@ impl Draw for Button {
     }
 }
 
+pub struct SelectBox {
+    pub width: u32,
+    pub height: u32,
+    pub options: Vec<String>,
+}
+
+impl Draw for SelectBox {
+    fn draw(&self) {
+        println!("Drawing a SelectBox...")
+    }
+}
+
 pub struct Screen {
     pub components: Vec<Box<dyn Draw>>,
 }

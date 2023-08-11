@@ -1,18 +1,6 @@
 #![allow(dead_code)]
 
-use gui::{Button, Draw, Screen};
-
-struct SelectBox {
-    width: u32,
-    height: u32,
-    options: Vec<String>,
-}
-
-impl Draw for SelectBox {
-    fn draw(&self) {
-        println!("Drawing a SelectBox...")
-    }
-}
+use gui::{Button, Screen, SelectBox};
 
 fn main() {
     let screen = Screen {
