@@ -1,2 +1,10 @@
 [workspace]
-members = ["blog", "blog-oop", "concurrency", "gui", "tree"]
+members = [
+  "blog",
+  "blog_oop",
+  "concurrency",
+  "gui",
+  "hello_macro",
+  "pancakes",
+  "tree",
+]
