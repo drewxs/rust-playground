@@ -8,4 +8,5 @@ members = [
   "grep",
   "hello_macro_use",
   "tree",
+  "web_server",
 ]
