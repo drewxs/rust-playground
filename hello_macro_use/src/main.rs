@@ -2,8 +2,8 @@ use hello_macro::HelloMacro;
 use hello_macro_derive::HelloMacro;
 
 #[derive(HelloMacro)]
-struct Pancakes;
+struct Hello;
 
 fn main() {
-    Pancakes::hello_macro();
+    Hello::hello_macro();
 }
